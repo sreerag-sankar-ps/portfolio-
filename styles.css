@@ -1741,3 +1741,277 @@ section {
     grid-template-columns: 1fr;
   }
 }
+
+/* ==========================================================================
+   RESUME-ALIGNED ENHANCEMENTS: HERO META, COURSEWORK & CERT LINKS
+   ========================================================================== */
+.hero-role-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.hero-meta-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-bottom: 1.6rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.coursework-box {
+  margin-top: 1rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.coursework-label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent-cyan);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.coursework-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.cw-pill {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+}
+
+.transition-narrative-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin-top: 0.8rem;
+  font-size: 0.86rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.7rem 0.9rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.cert-meta-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.4rem;
+}
+
+.cert-link-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  color: var(--accent-cyan);
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  background: rgba(56, 189, 248, 0.08);
+  border-radius: 4px;
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  transition: var(--transition);
+}
+
+.cert-link-badge:hover {
+  background: rgba(56, 189, 248, 0.2);
+  color: #fff;
+  border-color: var(--accent-cyan);
+}
+
+/* ==========================================================================
+   DIGITAL RESUME MODAL & PRINT STYLES
+   ========================================================================== */
+.resume-modal-dialog {
+  max-width: 840px;
+  padding: 2.5rem;
+  background: #090e1d;
+  color: #e2e8f0;
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.9);
+}
+
+.resume-sheet {
+  line-height: 1.6;
+}
+
+.resume-header-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.resume-name {
+  font-size: 1.95rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+
+.resume-role-subtitle {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--accent-cyan);
+  margin-bottom: 0.5rem;
+}
+
+.resume-contact-inline, .resume-links-inline {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.resume-links-inline a {
+  color: var(--accent-cyan);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.resume-actions-bar {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.resume-hr {
+  border: none;
+  border-top: 1.5px solid rgba(56, 189, 248, 0.3);
+  margin: 1.2rem 0 1.5rem;
+}
+
+.resume-section {
+  margin-bottom: 1.5rem;
+}
+
+.resume-sec-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 0.35rem;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.resume-sec-content {
+  font-size: 0.92rem;
+  color: #cbd5e1;
+  line-height: 1.65;
+}
+
+.resume-item {
+  margin-bottom: 1.1rem;
+}
+
+.resume-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.95rem;
+  color: #ffffff;
+  font-weight: 600;
+  gap: 10px;
+}
+
+.resume-item-sub {
+  font-size: 0.88rem;
+  color: var(--accent-cyan);
+  margin: 0.2rem 0 0.35rem;
+}
+
+.resume-item-details {
+  font-size: 0.86rem;
+  color: #94a3b8;
+  line-height: 1.55;
+}
+
+.resume-skills-list {
+  list-style: disc;
+  padding-left: 1.3rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+.resume-bullets {
+  list-style: disc;
+  padding-left: 1.3rem;
+  margin: 0.4rem 0 0.8rem;
+  font-size: 0.88rem;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.resume-bullets li {
+  margin-bottom: 0.45rem;
+}
+
+/* Print Optimization for Resume */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #resumeModal, #resumeModal * {
+    visibility: visible;
+  }
+  #resumeModal {
+    position: absolute;
+    inset: 0;
+    background: #fff !important;
+    padding: 0;
+  }
+  .resume-modal-dialog {
+    background: #fff !important;
+    color: #000 !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  .resume-actions-bar, .modal-close-btn {
+    display: none !important;
+  }
+  .resume-name, .resume-sec-title, .resume-item-top {
+    color: #000 !important;
+  }
+  .resume-role-subtitle, .resume-item-sub, .resume-links-inline a {
+    color: #0284c7 !important;
+  }
+  .resume-sec-content, .resume-bullets, .resume-skills-list, .resume-item-details {
+    color: #1e293b !important;
+  }
+  .resume-hr {
+    border-top: 1.5px solid #000 !important;
+  }
+  .resume-sec-title {
+    border-bottom: 1px solid #94a3b8 !important;
+  }
+}

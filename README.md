@@ -1,70 +1,92 @@
-# Sreerag Sankar PS – Developer Portfolio
+# Sreerag Sankar PS – Personal Developer Portfolio
 
-An ultra-modern, high-performance, responsive personal developer portfolio website designed for **Sreerag Sankar PS** (MCA Graduate & Entry-Level Flutter Developer).
+An ultra-modern, high-performance, and responsive personal developer portfolio website engineered for **Sreerag Sankar PS** (**Software Developer (Fresher) | Flutter & Python**), built to match the official resume with 100% precision.
 
 ---
 
 ## 🌟 Key Highlights & Features
 
-- **Flutter Themed Design**: Styled with modern midnight navy (`#080D1A`), Flutter cyan (`#0284C7`), and emerald green accents.
+- **Resume-Accurate Profile & Headline**:
+  - **Title**: Software Developer (Fresher) | Flutter & Python
+  - **Summary**: Cross-platform mobile and web applications in Flutter, Python, and JavaScript; REST APIs; transition from BA in Economics to MCA (8.52 CGPA); seeking Trainee / Junior Developer roles.
+  - **Location & Direct Contacts**: Palakkad, Kerala, India &bull; `+91 8590968986` &bull; `sreeragpssankar@gmail.com`
 - **Interactive Leaf Lens AI Smartphone Simulator**:
-  - A realistic smartphone mockup in the Hero section running a simulated mobile interface.
-  - Interactive "Scan Leaf" action triggers simulated TensorFlow inference via a FastAPI backend.
-  - Toggles between infected tomato foliage (*Tomato Early Blight*) and healthy foliage (*98.9% AI Match*) with real-time confidence scores and treatment advice.
-- **Metrics Strip**: Showcases MCA CGPA (**8.52**), TCS iON National Qualifier Test score (**2078/3000**), 4 verified certifications, and projects.
-- **Categorized Skills Matrix**: Filterable badges across Mobile, AI & Backend, Databases, Languages & Web, Tools, and Soft Skills.
-- **Project Showcase & Deep-Dive Modals**: Detailed architectural breakdown and module analysis for:
-  - *Leaf Lens – AI Plant Disease Detection* (Academic Project)
-  - *Rural Connect Website* (Developer Mini Project)
-- **Education & Credentials Timeline**:
-  - Master of Computer Application (MCA) – Nehru College of Engineering & Research Centre (CGPA: 8.52)
-  - Bachelor of Arts (Economics) – Najath Arts and Science College
-  - TCS iON NQT, NPTEL IIT Kanpur (Cloud Computing), Avodha Edutech (Flutter), IIT Bombay SINE (Python)
+  - A smartphone mockup in the Hero section running a simulated mobile interface.
+  - Interactive "Scan Leaf" action simulating asynchronous payload dispatch to a Cloud AI Vision API.
+  - Toggles between infected tomato foliage (*Tomato Early Blight*) and healthy foliage (*98.9% AI Match*) with real-time confidence scores and diagnostic remedies.
+- **Metrics Strip**:
+  - **8.52 / 10** MCA CGPA (Nehru College of Engineering and Research Centre)
+  - **2078 / 3000** TCS iON National Qualifier Test (NQT) Score (2026)
+  - **4** Verified Certifications (IIT Kanpur, IIT Bombay SINE, Avodha Edutech, TCS)
+  - **2** Featured Engineering Projects (Leaf Lens & Rural Connect)
+- **Categorized Skills Matrix (Matching Official Resume)**:
+  - **Languages**: Python, Dart, JavaScript, HTML
+  - **Frameworks & Libraries**: Flutter, Tailwind CSS
+  - **Databases & Cloud**: MySQL, Firebase, Cloud Computing Fundamentals
+  - **Core Concepts**: RESTful APIs, Agile Methodologies, Object-Oriented Programming (OOP), SDLC
+  - **Developer Tools**: Git, GitHub, VS Code, Postman
+- **Featured Technical Projects with Architecture Modals**:
+  - **Leaf Lens — AI Plant Disease Detection Mobile App** (Jan 2026 – Mar 2026 | Lead Developer):
+    - Cross-platform Flutter mobile app capturing/uploading photos via camera and gallery.
+    - Cloud AI Vision API integration for real-time classification.
+    - Asynchronous HTTP request handling, JSON response parsing, runtime permissions, and local on-device credential storage.
+  - **Rural Connect Web Platform** (Jun 2025 – Sep 2025 | UI Developer, 5-Member Team):
+    - Community web portal for filing complaints and tracking cross-departmental resolution progress.
+    - Responsive Tailwind CSS layouts eliminating cross-browser inconsistencies across devices.
+    - Frontend visual design and UI implementation with collaborative backend/DB integration.
+- **Education with Coursework Tags**:
+  - **Nehru College of Engineering and Research Centre — Thrissur, Kerala**: MCA (2024–2026 | CGPA: 8.52 / 10).
+    - Coursework: *Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks, Cloud Computing, Software Engineering*.
+  - **Najath Arts and Science College — Mannarkkad, Kerala**: BA in Economics (2020–2023).
+- **Certifications & Achievements**:
+  - TCS iON National Qualifier Test (NQT) &mdash; Scored 2078/3000 (2026)
+  - Cloud Computing and Distributed Systems &mdash; NPTEL, IIT Kanpur (2026)
+  - Python 3.4.3 Programming Certification &mdash; SINE, IIT Bombay & EduPyramids (2025)
+  - Cross-Platform Mobile Development &mdash; Avodha Edutech (2023–2024)
+- **Digital Resume Viewer Modal & 1-Click Print / PDF**:
+  - Built-in executive resume viewer modal accessible from the navbar, hero CTA, and footer.
+  - Includes a "Print / Save PDF" feature styled specifically with clean `@media print` CSS for standard A4 formatting.
 - **Direct Connect Channels**:
   - Direct 1-click WhatsApp chat link with prefilled greeting
-  - Direct email (`sreeragpssankar@gmail.com`)
-  - Direct call (`+91 8590968986`)
+  - Direct email dispatch (`sreeragpssankar@gmail.com`)
+  - Direct telephone call (`+91 8590968986`)
   - Interactive contact form with auto-formatted mailto dispatch
 
 ---
 
 ## 🚀 How to View Locally
 
-No installation or dependencies required!
+No complex dependencies or server setup required!
 
-1. Open File Explorer and navigate to `c:\Users\hp\Portfolio`.
-2. Double-click **`index.html`** to open it in your default browser (Chrome, Edge, Brave, etc.).
+1. Open File Explorer and navigate to:
+   ```
+   c:\Users\hp\Portfolio
+   ```
+2. Double-click **`index.html`** to open it in your default browser (Chrome, Edge, Firefox, Brave).
 
 ---
 
-## ✏️ Customization & Updates
+## ✏️ Customization & Personal Links
 
-1. **Add Your Resume PDF**:
-   - Save your PDF resume into this folder as `resume.pdf`.
-   - In `index.html`, update the "Request CV" link to:
-     ```html
-     <a href="resume.pdf" download class="btn btn-outline">
-       <i class="fas fa-file-arrow-down"></i> Download Resume
-     </a>
-     ```
-2. **Add Your Exact LinkedIn & GitHub Profiles**:
-   - In `index.html`, search for `https://linkedin.com` and `https://github.com` and replace them with your personalized URLs (e.g., `https://linkedin.com/in/your-username` and `https://github.com/your-username`).
-3. **Add Live Demo Links**:
-   - For *Leaf Lens* or *Rural Connect*, you can add your GitHub repository URLs in the project cards.
+1. **Add Your Exact LinkedIn & GitHub Profile URLs**:
+   - In `index.html`, search for `https://linkedin.com` and `https://github.com` and update them with your personalized handle (e.g., `https://linkedin.com/in/sreerag-sankar` and `https://github.com/sreerag-sankar`).
+2. **Add Project Repositories**:
+   - Update the repository buttons for *Leaf Lens* and *Rural Connect* to point directly to your GitHub repository URLs.
+3. **Optional Resume File (`resume.pdf`)**:
+   - You can place your `resume.pdf` file into this directory if you wish to link a direct download button alongside the digital modal.
 
 ---
 
 ## 🌐 Free 1-Click Hosting
 
 ### Option 1: GitHub Pages (Recommended)
-1. Initialize git in this directory and commit:
+1. Initialize git and commit:
    ```bash
-   git init
    git add .
-   git commit -m "Initial portfolio commit"
+   git commit -m "feat: complete resume-aligned portfolio for Sreerag Sankar PS"
    ```
-2. Create a new repository on GitHub named `portfolio` (or `<your-username>.github.io`).
-3. Link and push:
+2. Create a new GitHub repository named `portfolio` (or `sreerag-sankar.github.io`).
+3. Connect and push:
    ```bash
    git remote add origin https://github.com/<your-username>/portfolio.git
    git branch -M main
@@ -74,6 +96,6 @@ No installation or dependencies required!
    `https://<your-username>.github.io/portfolio/`
 
 ### Option 2: Netlify (Drag & Drop)
-1. Go to [netlify.com](https://www.netlify.com/) and log in.
-2. Drag the `c:\Users\hp\Portfolio` folder directly onto the Netlify dashboard.
-3. Your site is deployed instantly with a free SSL certificate!
+1. Visit [netlify.com](https://www.netlify.com/) and log in.
+2. Drag and drop the `c:\Users\hp\Portfolio` folder directly onto the Netlify dashboard.
+3. Your site is deployed immediately with a free SSL certificate!

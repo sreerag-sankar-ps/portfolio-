@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sreerag Sankar PS | Aspiring Flutter Developer & MCA</title>
-  <meta name="description" content="Personal Portfolio of Sreerag Sankar PS - MCA Graduate and Entry-Level Flutter Developer. Cross-platform mobile development, FastAPI, and TensorFlow integration.">
-  <meta name="keywords" content="Sreerag Sankar, Flutter Developer, Mobile App Developer, Dart, FastAPI, TensorFlow, Kerala, MCA">
+  <title>Sreerag Sankar PS | Software Developer (Fresher) | Flutter &amp; Python</title>
+  <meta name="description" content="Portfolio of Sreerag Sankar PS - Software Developer (Fresher) specializing in Flutter, Python, Dart, and JavaScript. MCA Graduate (8.52 CGPA) seeking a Trainee / Junior Developer role.">
+  <meta name="keywords" content="Sreerag Sankar PS, Software Developer, Flutter Developer, Python Developer, Palakkad Kerala, MCA, Nehru College of Engineering, REST APIs, Mobile Apps, Leaf Lens, Rural Connect">
   <meta name="author" content="Sreerag Sankar PS">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Sreerag Sankar PS | Flutter Developer Portfolio">
-  <meta property="og:description" content="Entry-level Flutter Developer with hands-on experience building mobile apps and AI integration.">
+  <meta property="og:title" content="Sreerag Sankar PS | Software Developer (Fresher) | Flutter &amp; Python">
+  <meta property="og:description" content="Cross-platform mobile &amp; web apps in Flutter, Python, and JavaScript. MCA Graduate (8.52 CGPA) seeking Trainee / Junior Developer opportunities.">
   <meta property="og:type" content="website">
 
   <!-- Google Fonts: Outfit & Fira Code -->
@@ -47,6 +47,9 @@
       </nav>
 
       <div class="nav-actions">
+        <button class="btn btn-outline btn-sm" id="viewResumeNavBtn" onclick="openResumeModal()">
+          <i class="fas fa-file-lines"></i> View Resume
+        </button>
         <a href="#contact" class="btn btn-primary btn-sm">
           <i class="fas fa-paper-plane"></i> Get In Touch
         </a>
@@ -66,35 +69,48 @@
         <!-- Hero Left / Content -->
         <div class="hero-content">
           <div class="hero-badge">
-            <i class="fas fa-circle-notch fa-spin"></i> Open to Opportunities • Junior Developer
+            <i class="fas fa-circle-notch fa-spin"></i> Open to Opportunities • Trainee / Junior Developer
           </div>
           <h1 class="hero-title">
             Hi, I'm <br>
             <span class="gradient-text">Sreerag Sankar PS</span>
           </h1>
+          <div class="hero-role-title">
+            Software Developer (Fresher) &bull; <span class="accent-cyan-text">Flutter</span> &amp; <span class="accent-emerald-text">Python</span>
+          </div>
           <p class="hero-subtitle">
-            <strong>MCA Graduate &amp; Entry-Level Flutter Developer</strong> with hands-on experience crafting fluid cross-platform mobile apps, integrating <strong>FastAPI</strong> backends, and deploying <strong>TensorFlow</strong> deep learning models.
+            Hands-on experience building cross-platform mobile and web applications in <strong>Flutter, Python, and JavaScript</strong>. Skilled in integrating <strong>REST APIs</strong> and delivering features end-to-end on independent projects. Recently completed an <strong>MCA (2026, 8.52 CGPA)</strong>, having transitioned from a Bachelor's in Economics into software development.
           </p>
+
+          <div class="hero-meta-contacts">
+            <span class="meta-item"><i class="fas fa-location-dot accent-cyan-text"></i> Palakkad, Kerala, India</span>
+            <span class="meta-item"><i class="fas fa-phone accent-cyan-text"></i> +91 8590968986</span>
+            <span class="meta-item"><i class="fas fa-envelope accent-cyan-text"></i> sreeragpssankar@gmail.com</span>
+          </div>
 
           <div class="hero-tags">
             <span class="tech-tag"><i class="fab fa-flutter accent-cyan-text"></i> Flutter</span>
+            <span class="tech-tag"><i class="fab fa-python" style="color: #38bdf8;"></i> Python</span>
             <span class="tech-tag"><i class="fas fa-code accent-cyan-text"></i> Dart</span>
-            <span class="tech-tag"><i class="fas fa-bolt accent-cyan-text"></i> FastAPI</span>
-            <span class="tech-tag"><i class="fas fa-brain accent-emerald-text"></i> TensorFlow</span>
+            <span class="tech-tag"><i class="fab fa-js" style="color: #facc15;"></i> JavaScript</span>
+            <span class="tech-tag"><i class="fab fa-html5" style="color: #ea580c;"></i> HTML</span>
+            <span class="tech-tag"><i class="fas fa-wind" style="color: #38bdf8;"></i> Tailwind CSS</span>
+            <span class="tech-tag"><i class="fas fa-database" style="color: #0284c7;"></i> MySQL</span>
             <span class="tech-tag"><i class="fas fa-fire" style="color: #f59e0b;"></i> Firebase</span>
-            <span class="tech-tag"><i class="fas fa-database" style="color: #38bdf8;"></i> SQLite</span>
+            <span class="tech-tag"><i class="fas fa-network-wired accent-emerald-text"></i> RESTful APIs</span>
             <span class="tech-tag"><i class="fab fa-git-alt" style="color: #f97316;"></i> Git</span>
+            <span class="tech-tag"><i class="fas fa-paper-plane" style="color: #f97316;"></i> Postman</span>
           </div>
 
           <div class="hero-ctas">
             <a href="#projects" class="btn btn-primary">
               <i class="fas fa-mobile-screen"></i> Explore Projects
             </a>
-            <a href="#contact" class="btn btn-secondary">
+            <button class="btn btn-secondary" onclick="openResumeModal()">
+              <i class="fas fa-file-pdf"></i> View &amp; Print CV
+            </button>
+            <a href="#contact" class="btn btn-outline">
               <i class="fas fa-envelope"></i> Contact Me
-            </a>
-            <a href="mailto:sreeragpssankar@gmail.com?subject=Resume%20Request%20-%20Sreerag%20Sankar%20PS" class="btn btn-outline">
-              <i class="fas fa-file-arrow-down"></i> Request CV
             </a>
           </div>
 
@@ -106,7 +122,7 @@
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn Profile">
               <i class="fab fa-linkedin-in"></i>
             </a>
-            <a href="https://wa.me/918590968986?text=Hi%20Sreerag,%20I%20reviewed%20your%20Flutter%20portfolio!" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="WhatsApp Direct">
+            <a href="https://wa.me/918590968986?text=Hi%20Sreerag,%20I%20reviewed%20your%20software%20developer%20portfolio!" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="WhatsApp Direct">
               <i class="fab fa-whatsapp"></i>
             </a>
             <a href="mailto:sreeragpssankar@gmail.com" class="social-icon-btn" title="Email Sreerag">
@@ -121,10 +137,10 @@
 
           <!-- Floating Badges -->
           <div class="floating-badge badge-flutter">
-            <i class="fab fa-flutter"></i> Flutter UI / Material 3
+            <i class="fab fa-flutter"></i> Flutter &amp; Dart Mobile
           </div>
           <div class="floating-badge badge-fastapi">
-            <i class="fas fa-brain"></i> FastAPI &amp; TensorFlow
+            <i class="fas fa-microchip"></i> Cloud AI Vision API
           </div>
 
           <!-- The Smartphone Device Frame -->
@@ -225,24 +241,24 @@
       <div class="container">
         <div class="metrics-grid">
           <div class="metric-item">
-            <div class="metric-value">8.52</div>
+            <div class="metric-value">8.52<span style="font-size: 1.15rem; color: #94a3b8;">/10</span></div>
             <div class="metric-label">MCA CGPA</div>
             <div class="metric-sub">Nehru College of Engineering</div>
           </div>
           <div class="metric-item">
-            <div class="metric-value">2078<span style="font-size: 1.2rem; color: #94a3b8;">/3000</span></div>
+            <div class="metric-value">2078<span style="font-size: 1.15rem; color: #94a3b8;">/3000</span></div>
             <div class="metric-label">TCS iON NQT Score</div>
-            <div class="metric-sub">National Qualifier Test</div>
+            <div class="metric-sub">National Qualifier Test (2026)</div>
           </div>
           <div class="metric-item">
             <div class="metric-value">4</div>
-            <div class="metric-label">Certifications</div>
+            <div class="metric-label">Verified Certifications</div>
             <div class="metric-sub">IIT Kanpur, IIT Bombay, Avodha, TCS</div>
           </div>
           <div class="metric-item">
-            <div class="metric-value">2+</div>
-            <div class="metric-label">Core Projects</div>
-            <div class="metric-sub">Flutter AI Mobile &amp; Web Platform</div>
+            <div class="metric-value">2</div>
+            <div class="metric-label">Featured Projects</div>
+            <div class="metric-sub">Flutter AI Mobile &amp; Tailwind Web Platform</div>
           </div>
         </div>
       </div>
@@ -255,9 +271,9 @@
       <div class="container">
         <div class="section-header">
           <span class="section-tag"><i class="fas fa-user"></i> Professional Profile</span>
-          <h2 class="section-title">Bridging Clean Mobile UI with Intelligent Backends</h2>
+          <h2 class="section-title">Bridging Analytical Rigor with Software Engineering</h2>
           <p class="section-subtitle">
-            Passionate about modern mobile architecture, cross-platform performance, and engineering practical technology solutions.
+            A fast-learning software developer transitioning quantitative problem-solving into production-grade mobile and web software.
           </p>
         </div>
 
@@ -265,10 +281,13 @@
           <!-- Left: Narrative -->
           <div class="about-narrative">
             <p>
-              I am an <strong>MCA graduate and entry-level Flutter Developer</strong> with hands-on experience building modern, responsive mobile applications. I have successfully engineered cross-platform apps using <strong>Flutter, Dart, and FastAPI backend integration</strong>, integrating machine learning models with accessible user interfaces.
+              I am a <strong>Software Developer (Fresher)</strong> with hands-on experience building cross-platform mobile and web applications in <strong>Flutter, Python, and JavaScript</strong>. Skilled in integrating <strong>REST APIs</strong> and delivering features end-to-end on independent and collaborative projects.
             </p>
             <p>
-              I possess a solid understanding of <strong>Object-Oriented Programming (OOP)</strong>, <strong>RESTful APIs</strong>, and version control with <strong>Git &amp; GitHub</strong>. As an agile and continuous learner, I am eager to join a forward-thinking software team as a <strong>Junior Developer</strong> and contribute toward building impactful, reliable software.
+              I recently completed my <strong>Master of Computer Applications (MCA) in 2026</strong> from Nehru College of Engineering and Research Centre with a <strong>CGPA of 8.52 / 10</strong>. Prior to that, I earned my <strong>Bachelor of Arts in Economics</strong> from Najath Arts and Science College, Mannarkkad. This unique academic journey gives me both strong analytical modeling capabilities and rigorous software fundamentals.
+            </p>
+            <p>
+              I am actively seeking a <strong>Trainee / Junior Developer</strong> role where I can apply strong computer science fundamentals, Object-Oriented Programming (OOP), and a quick learning ability to real-world engineering problems.
             </p>
 
             <div class="quick-details-bar">
@@ -277,12 +296,16 @@
                 <span>Location: <strong class="highlight">Palakkad, Kerala, India</strong></span>
               </div>
               <div class="detail-item">
-                <i class="fas fa-language accent-cyan-text"></i>
-                <span>Languages: <strong class="highlight">English, Malayalam</strong></span>
+                <i class="fas fa-graduation-cap accent-cyan-text"></i>
+                <span>Degree: <strong class="highlight">MCA (CGPA: 8.52 / 10)</strong></span>
               </div>
               <div class="detail-item">
-                <i class="fas fa-graduation-cap accent-cyan-text"></i>
-                <span>Degree: <strong class="highlight">Master of Computer Application (MCA)</strong></span>
+                <i class="fas fa-briefcase accent-cyan-text"></i>
+                <span>Target Role: <strong class="highlight">Trainee / Junior Developer</strong></span>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-language accent-cyan-text"></i>
+                <span>Languages: <strong class="highlight">English, Malayalam</strong></span>
               </div>
             </div>
           </div>
@@ -291,26 +314,26 @@
           <div class="about-highlights">
             <div class="about-card">
               <div class="about-card-icon"><i class="fab fa-flutter"></i></div>
-              <h3 class="about-card-title">Cross-Platform Apps</h3>
-              <p class="about-card-desc">Designing smooth, high-performance interfaces with Flutter &amp; Dart for Android and beyond.</p>
+              <h3 class="about-card-title">Cross-Platform Mobile</h3>
+              <p class="about-card-desc">Architecting responsive, performant mobile apps using Flutter and Dart with native device hardware integration.</p>
             </div>
 
             <div class="about-card">
-              <div class="about-card-icon"><i class="fas fa-bolt"></i></div>
-              <h3 class="about-card-title">Backend &amp; REST APIs</h3>
-              <p class="about-card-desc">Connecting Flutter clients to FastAPI backend services and asynchronous REST endpoints.</p>
+              <div class="about-card-icon"><i class="fab fa-python"></i></div>
+              <h3 class="about-card-title">Python &amp; RESTful APIs</h3>
+              <p class="about-card-desc">Building asynchronous HTTP request pipelines, secure payload handling, and backend service integration.</p>
             </div>
 
             <div class="about-card">
               <div class="about-card-icon"><i class="fas fa-brain"></i></div>
-              <h3 class="about-card-title">AI/ML Integration</h3>
-              <p class="about-card-desc">Integrating TensorFlow-based disease prediction models into interactive user workflows.</p>
+              <h3 class="about-card-title">Cloud AI Vision APIs</h3>
+              <p class="about-card-desc">Integrating cloud-based computer vision APIs into client applications for real-time inference and recommendations.</p>
             </div>
 
             <div class="about-card">
-              <div class="about-card-icon"><i class="fas fa-database"></i></div>
-              <h3 class="about-card-title">Data &amp; Cloud</h3>
-              <p class="about-card-desc">Managing structured offline data with SQLite and real-time cloud data with Firebase.</p>
+              <div class="about-card-icon"><i class="fas fa-wind"></i></div>
+              <h3 class="about-card-title">Responsive Web &amp; Tailwind</h3>
+              <p class="about-card-desc">Developing accessible, cross-browser compatible frontend layouts using modern Tailwind CSS and JavaScript.</p>
             </div>
           </div>
         </div>
@@ -318,63 +341,61 @@
     </section>
 
     <!-- ======================================================================
-         SKILLS MATRIX
+         SKILLS MATRIX (EXACT 5 RESUME CATEGORIES)
          ====================================================================== -->
     <section id="skills" style="background: rgba(13, 22, 41, 0.35);">
       <div class="container">
         <div class="section-header">
-          <span class="section-tag"><i class="fas fa-layer-group"></i> Technical Arsenal</span>
-          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <span class="section-tag"><i class="fas fa-layer-group"></i> Technical Skills</span>
+          <h2 class="section-title">Core Technical Arsenal</h2>
           <p class="section-subtitle">
-            Categorized overview of frameworks, languages, databases, and developer tools in my workflow.
+            Categorized directly from my official resume across languages, frameworks, cloud databases, core principles, and tools.
           </p>
         </div>
 
         <!-- Category Filter Buttons -->
         <div class="skills-filter-container">
           <button class="filter-btn active" data-filter="all">All Skills</button>
-          <button class="filter-btn" data-filter="mobile">Mobile &amp; Frameworks</button>
-          <button class="filter-btn" data-filter="ai-backend">AI &amp; Backend</button>
+          <button class="filter-btn" data-filter="languages">Languages</button>
+          <button class="filter-btn" data-filter="frameworks">Frameworks &amp; Libraries</button>
           <button class="filter-btn" data-filter="databases">Databases &amp; Cloud</button>
-          <button class="filter-btn" data-filter="languages">Programming &amp; Web</button>
-          <button class="filter-btn" data-filter="tools">Tools &amp; Soft Skills</button>
+          <button class="filter-btn" data-filter="concepts">Core Concepts</button>
+          <button class="filter-btn" data-filter="tools">Developer Tools</button>
         </div>
 
         <!-- Skills Cards Grid -->
         <div class="skills-grid" id="skillsGrid">
-          <!-- 1. Mobile & Frameworks -->
-          <div class="skill-category-card" data-category="mobile">
+          <!-- 1. Languages -->
+          <div class="skill-category-card" data-category="languages">
             <div class="skill-card-top">
-              <div class="skill-icon-wrap"><i class="fab fa-flutter"></i></div>
+              <div class="skill-icon-wrap purple"><i class="fas fa-code"></i></div>
               <div>
-                <h3 class="skill-cat-title">Mobile &amp; Frameworks</h3>
-                <span style="font-size: 0.8rem; color: #94a3b8;">Primary Specialization</span>
+                <h3 class="skill-cat-title">Languages</h3>
+                <span style="font-size: 0.8rem; color: #94a3b8;">Programming &amp; Scripting</span>
               </div>
             </div>
             <ul class="skill-items-list">
-              <li class="skill-chip"><span class="chip-dot"></span> Flutter</li>
-              <li class="skill-chip"><span class="chip-dot"></span> Dart</li>
-              <li class="skill-chip"><span class="chip-dot"></span> Material 3 UI</li>
-              <li class="skill-chip"><span class="chip-dot"></span> Responsive Mobile Layouts</li>
-              <li class="skill-chip"><span class="chip-dot"></span> State Management Concepts</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #38bdf8;"></span> Python</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #0284c7;"></span> Dart</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #facc15;"></span> JavaScript</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #ea580c;"></span> HTML</li>
             </ul>
           </div>
 
-          <!-- 2. AI & Backend -->
-          <div class="skill-category-card" data-category="ai-backend">
+          <!-- 2. Frameworks & Libraries -->
+          <div class="skill-category-card" data-category="frameworks">
             <div class="skill-card-top">
-              <div class="skill-icon-wrap emerald"><i class="fas fa-brain"></i></div>
+              <div class="skill-icon-wrap"><i class="fab fa-flutter"></i></div>
               <div>
-                <h3 class="skill-cat-title">AI &amp; Backend</h3>
-                <span style="font-size: 0.8rem; color: #94a3b8;">Intelligence &amp; APIs</span>
+                <h3 class="skill-cat-title">Frameworks &amp; Libraries</h3>
+                <span style="font-size: 0.8rem; color: #94a3b8;">Mobile &amp; UI Architecture</span>
               </div>
             </div>
             <ul class="skill-items-list">
-              <li class="skill-chip"><span class="chip-dot" style="background: #10b981;"></span> FastAPI</li>
-              <li class="skill-chip"><span class="chip-dot" style="background: #10b981;"></span> TensorFlow</li>
-              <li class="skill-chip"><span class="chip-dot" style="background: #10b981;"></span> REST APIs</li>
-              <li class="skill-chip"><span class="chip-dot" style="background: #10b981;"></span> Python (Basic)</li>
-              <li class="skill-chip"><span class="chip-dot" style="background: #10b981;"></span> Model Inference Pipelines</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #38bdf8;"></span> Flutter</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #38bdf8;"></span> Tailwind CSS</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #38bdf8;"></span> Material 3 UI</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #38bdf8;"></span> Responsive Mobile Layouts</li>
             </ul>
           </div>
 
@@ -384,68 +405,49 @@
               <div class="skill-icon-wrap amber"><i class="fas fa-database"></i></div>
               <div>
                 <h3 class="skill-cat-title">Databases &amp; Cloud</h3>
-                <span style="font-size: 0.8rem; color: #94a3b8;">Storage &amp; Infrastructure</span>
+                <span style="font-size: 0.8rem; color: #94a3b8;">Persistence &amp; Infrastructure</span>
               </div>
             </div>
             <ul class="skill-items-list">
-              <li class="skill-chip"><span class="chip-dot" style="background: #f59e0b;"></span> SQLite</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #f59e0b;"></span> MySQL</li>
               <li class="skill-chip"><span class="chip-dot" style="background: #f59e0b;"></span> Firebase</li>
-              <li class="skill-chip"><span class="chip-dot" style="background: #f59e0b;"></span> Cloud Computing (NPTEL)</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #f59e0b;"></span> Cloud Computing Fundamentals</li>
               <li class="skill-chip"><span class="chip-dot" style="background: #f59e0b;"></span> Distributed Systems Principles</li>
             </ul>
           </div>
 
-          <!-- 4. Programming Languages & Web -->
-          <div class="skill-category-card" data-category="languages">
+          <!-- 4. Core Concepts -->
+          <div class="skill-category-card" data-category="concepts">
             <div class="skill-card-top">
-              <div class="skill-icon-wrap purple"><i class="fas fa-code"></i></div>
+              <div class="skill-icon-wrap emerald"><i class="fas fa-gears"></i></div>
               <div>
-                <h3 class="skill-cat-title">Languages &amp; Web</h3>
-                <span style="font-size: 0.8rem; color: #94a3b8;">Core Foundations</span>
+                <h3 class="skill-cat-title">Core Concepts</h3>
+                <span style="font-size: 0.8rem; color: #94a3b8;">Engineering Principles</span>
               </div>
             </div>
             <ul class="skill-items-list">
-              <li class="skill-chip"><span class="chip-dot" style="background: #8b5cf6;"></span> Dart</li>
-              <li class="skill-chip"><span class="chip-dot" style="background: #8b5cf6;"></span> Java (Basic)</li>
-              <li class="skill-chip"><span class="chip-dot" style="background: #8b5cf6;"></span> Python (Basic)</li>
-              <li class="skill-chip"><span class="chip-dot" style="background: #8b5cf6;"></span> HTML5</li>
-              <li class="skill-chip"><span class="chip-dot" style="background: #8b5cf6;"></span> CSS3</li>
-              <li class="skill-chip"><span class="chip-dot" style="background: #8b5cf6;"></span> JavaScript (Basic)</li>
-              <li class="skill-chip"><span class="chip-dot" style="background: #8b5cf6;"></span> OOP Concepts</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #10b981;"></span> RESTful APIs</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #10b981;"></span> Agile Methodologies</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #10b981;"></span> Object-Oriented Programming (OOP)</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #10b981;"></span> SDLC (Software Dev Lifecycle)</li>
+              <li class="skill-chip"><span class="chip-dot" style="background: #10b981;"></span> Data Structures &amp; Algorithms</li>
             </ul>
           </div>
 
-          <!-- 5. Tools & Platforms -->
+          <!-- 5. Developer Tools -->
           <div class="skill-category-card" data-category="tools">
             <div class="skill-card-top">
-              <div class="skill-icon-wrap"><i class="fas fa-laptop-code"></i></div>
+              <div class="skill-icon-wrap"><i class="fas fa-screwdriver-wrench"></i></div>
               <div>
-                <h3 class="skill-cat-title">Tools &amp; Platforms</h3>
-                <span style="font-size: 0.8rem; color: #94a3b8;">Development Workflow</span>
+                <h3 class="skill-cat-title">Developer Tools</h3>
+                <span style="font-size: 0.8rem; color: #94a3b8;">Workflow &amp; Tooling</span>
               </div>
             </div>
             <ul class="skill-items-list">
-              <li class="skill-chip"><span class="chip-dot"></span> Android Studio</li>
-              <li class="skill-chip"><span class="chip-dot"></span> Visual Studio Code</li>
-              <li class="skill-chip"><span class="chip-dot"></span> Git (Basic)</li>
+              <li class="skill-chip"><span class="chip-dot"></span> Git</li>
               <li class="skill-chip"><span class="chip-dot"></span> GitHub</li>
-            </ul>
-          </div>
-
-          <!-- 6. Soft Skills -->
-          <div class="skill-category-card" data-category="tools">
-            <div class="skill-card-top">
-              <div class="skill-icon-wrap emerald"><i class="fas fa-lightbulb"></i></div>
-              <div>
-                <h3 class="skill-cat-title">Professional Attributes</h3>
-                <span style="font-size: 0.8rem; color: #94a3b8;">Collaboration &amp; Growth</span>
-              </div>
-            </div>
-            <ul class="skill-items-list">
-              <li class="skill-chip"><span class="chip-dot" style="background: #10b981;"></span> Problem Solving</li>
-              <li class="skill-chip"><span class="chip-dot" style="background: #10b981;"></span> Adaptability</li>
-              <li class="skill-chip"><span class="chip-dot" style="background: #10b981;"></span> Continuous Learning</li>
-              <li class="skill-chip"><span class="chip-dot" style="background: #10b981;"></span> Time Management</li>
+              <li class="skill-chip"><span class="chip-dot"></span> VS Code</li>
+              <li class="skill-chip"><span class="chip-dot"></span> Postman</li>
             </ul>
           </div>
         </div>
@@ -458,17 +460,17 @@
     <section id="projects">
       <div class="container">
         <div class="section-header">
-          <span class="section-tag"><i class="fas fa-folder-open"></i> Portfolio Showcase</span>
-          <h2 class="section-title">Featured Projects</h2>
+          <span class="section-tag"><i class="fas fa-folder-open"></i> Technical Projects</span>
+          <h2 class="section-title">Engineered Applications</h2>
           <p class="section-subtitle">
-            Practical applications highlighting cross-platform mobile engineering, AI integration, and full-stack web solutions.
+            Real-world projects showcasing cross-platform mobile engineering with Flutter, cloud AI integration, and collaborative responsive web development.
           </p>
         </div>
 
         <div class="projects-grid">
           <!-- Project 1: Leaf Lens -->
           <div class="project-card">
-            <span class="project-badge-type">Academic Project</span>
+            <span class="project-badge-type">Lead Developer</span>
             <div class="project-banner">
               <div class="project-banner-grid-overlay"></div>
               <div class="project-visual-icon">
@@ -478,25 +480,33 @@
 
             <div class="project-content">
               <div class="project-time">
-                <i class="fas fa-calendar-alt"></i> 2026 Jan – 2026 March
+                <i class="fas fa-calendar-alt"></i> Jan 2026 – Mar 2026
               </div>
-              <h3 class="project-name">Leaf Lens – AI Plant Disease Detection</h3>
+              <h3 class="project-name">Leaf Lens — AI Plant Disease Detection Mobile App</h3>
               <p class="project-desc">
-                An intelligent cross-platform Flutter application engineered for AI-based tomato leaf disease detection with real-time prediction and tailored agricultural remedies.
+                An intelligent cross-platform Flutter application that empowers agriculturalists to diagnose plant health issues in real time through leaf imaging and cloud vision intelligence.
               </p>
 
               <ul class="project-bullets">
-                <li><i class="fas fa-check-circle"></i> Developed a responsive Flutter mobile UI with real-time camera scanning and image upload.</li>
-                <li><i class="fas fa-check-circle"></i> Integrated FastAPI as a scalable, high-throughput asynchronous backend service.</li>
-                <li><i class="fas fa-check-circle"></i> Implemented TensorFlow-based deep learning classification for accurate disease prediction.</li>
-                <li><i class="fas fa-check-circle"></i> Formulated instant treatment recommendations and preventive agricultural guidelines.</li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span><strong>Cross-Platform Flutter:</strong> Engineered a mobile app enabling users to capture or upload leaf photos via camera and device gallery.</span>
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span><strong>Cloud AI Vision API:</strong> Integrated a cloud-based AI vision API to analyze uploaded images and return disease classification results in real time.</span>
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span><strong>Asynchronous HTTP &amp; Permissions:</strong> Built robust HTTP request handling for image payloads and JSON responses, with runtime permissions and local credential storage.</span>
+                </li>
               </ul>
 
               <div class="project-tags">
                 <span class="project-tag">Flutter</span>
                 <span class="project-tag">Dart</span>
-                <span class="project-tag">FastAPI</span>
-                <span class="project-tag">TensorFlow</span>
+                <span class="project-tag">REST APIs</span>
+                <span class="project-tag">Cloud AI Vision</span>
                 <span class="project-tag">Git</span>
                 <span class="project-tag">GitHub</span>
               </div>
@@ -505,16 +515,19 @@
                 <button class="btn btn-primary btn-sm" onclick="openProjectModal('leaflens')">
                   <i class="fas fa-circle-info"></i> Architecture &amp; Details
                 </button>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
-                  <i class="fab fa-github"></i> GitHub
+                <a href="#home" class="btn btn-secondary btn-sm" onclick="triggerSimulatorDemo(event)">
+                  <i class="fas fa-play"></i> Live Simulator
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fab fa-github"></i> Repository
                 </a>
               </div>
             </div>
           </div>
 
-          <!-- Project 2: Rural Connect Website -->
+          <!-- Project 2: Rural Connect Web Platform -->
           <div class="project-card">
-            <span class="project-badge-type">Developer Mini Project</span>
+            <span class="project-badge-type">UI Developer | 5-Member Team</span>
             <div class="project-banner">
               <div class="project-banner-grid-overlay"></div>
               <div class="project-visual-icon">
@@ -524,31 +537,43 @@
 
             <div class="project-content">
               <div class="project-time">
-                <i class="fas fa-calendar-alt"></i> 2025 – 2026
+                <i class="fas fa-calendar-alt"></i> Jun 2025 – Sep 2025
               </div>
-              <h3 class="project-name">Rural Connect Website</h3>
+              <h3 class="project-name">Rural Connect Web Platform</h3>
               <p class="project-desc">
-                A community-centric web platform bridging the communication divide between rural citizens and local municipal authorities for transparent grievance handling.
+                A community web portal engineered to bridge the communication gap between rural citizens and municipal authorities for digital grievance filing and transparent resolution tracking.
               </p>
 
               <ul class="project-bullets">
-                <li><i class="fas fa-check-circle"></i> Built an intuitive citizen-facing web portal for reporting village infrastructure grievances.</li>
-                <li><i class="fas fa-check-circle"></i> Implemented online complaint submission and end-to-end ticket progress tracking.</li>
-                <li><i class="fas fa-check-circle"></i> Enhanced governance transparency through structured community participation modules.</li>
-                <li><i class="fas fa-check-circle"></i> Managed relational records using SQLite for reliable local database storage.</li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span><strong>Community Web Portal:</strong> Built frontend UI for filing complaints digitally and tracking cross-departmental resolution progress, as part of a 5-member team.</span>
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span><strong>Responsive Tailwind CSS:</strong> Designed and implemented responsive Tailwind CSS layouts, reducing cross-browser rendering inconsistencies and improving usability across devices.</span>
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <span><strong>Design &amp; Team Collaboration:</strong> Focused on visual design and UI implementation, while teammates handled backend logic and database integration.</span>
+                </li>
               </ul>
 
               <div class="project-tags">
-                <span class="project-tag">HTML5</span>
-                <span class="project-tag">CSS3</span>
+                <span class="project-tag">HTML</span>
                 <span class="project-tag">JavaScript</span>
-                <span class="project-tag">SQLite</span>
+                <span class="project-tag">Tailwind CSS</span>
+                <span class="project-tag">Git</span>
+                <span class="project-tag">Cross-Browser UI</span>
               </div>
 
               <div class="project-actions">
                 <button class="btn btn-primary btn-sm" onclick="openProjectModal('ruralconnect')">
-                  <i class="fas fa-circle-info"></i> Module Breakdown
+                  <i class="fas fa-circle-info"></i> Module &amp; Team Breakdown
                 </button>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fab fa-github"></i> Repository
+                </a>
               </div>
             </div>
           </div>
@@ -565,7 +590,7 @@
           <span class="section-tag"><i class="fas fa-graduation-cap"></i> Academic &amp; Certified Background</span>
           <h2 class="section-title">Education &amp; Certifications</h2>
           <p class="section-subtitle">
-            Formal degrees, verified technical accreditations, and national qualification scores.
+            Formal degrees with relevant computer science coursework, national qualifier ranking, and industry-recognized credentials.
           </p>
         </div>
 
@@ -582,14 +607,25 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-card">
                   <div class="timeline-header">
-                    <h4 class="timeline-degree">Master of Computer Application (MCA)</h4>
-                    <span class="timeline-period">2024 – 2026</span>
+                    <h4 class="timeline-degree">Master of Computer Applications (MCA)</h4>
+                    <span class="timeline-period">Aug 2024 – Jul 2026</span>
                   </div>
                   <div class="timeline-institution">
-                    Nehru College of Engineering and Research Centre | Thrissur, Kerala
+                    Nehru College of Engineering and Research Centre — Thrissur, Kerala
                   </div>
                   <div class="timeline-cgpa-badge">
-                    <i class="fas fa-award"></i> CGPA: 8.52
+                    <i class="fas fa-award"></i> CGPA: 8.52 / 10
+                  </div>
+                  <div class="coursework-box">
+                    <span class="coursework-label">Relevant Coursework:</span>
+                    <div class="coursework-tags">
+                      <span class="cw-pill">Data Structures &amp; Algorithms</span>
+                      <span class="cw-pill">DBMS</span>
+                      <span class="cw-pill">Operating Systems</span>
+                      <span class="cw-pill">Computer Networks</span>
+                      <span class="cw-pill">Cloud Computing</span>
+                      <span class="cw-pill">Software Engineering</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -599,14 +635,15 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-card">
                   <div class="timeline-header">
-                    <h4 class="timeline-degree">Bachelor of Arts (Economics)</h4>
-                    <span class="timeline-period">2020 – 2023</span>
+                    <h4 class="timeline-degree">Bachelor of Arts (BA) in Economics</h4>
+                    <span class="timeline-period">Jun 2020 – May 2023</span>
                   </div>
                   <div class="timeline-institution">
-                    Najath Arts and Science College
+                    Najath Arts and Science College — Mannarkkad, Kerala
                   </div>
-                  <div class="timeline-cgpa-badge" style="background: rgba(56, 189, 248, 0.12); color: #38bdf8; border-color: rgba(56, 189, 248, 0.3);">
-                    <i class="fas fa-chart-line"></i> Score: 59.50%
+                  <div class="transition-narrative-note">
+                    <i class="fas fa-arrow-trend-up accent-cyan-text"></i>
+                    <span>Cultivated strong analytical, quantitative reasoning, and economic modeling skills before transitioning with high distinction into computer applications.</span>
                   </div>
                 </div>
               </div>
@@ -616,7 +653,7 @@
           <!-- Column 2: Certifications -->
           <div class="certs-column">
             <h3 class="timeline-column-title">
-              <i class="fas fa-certificate accent-cyan-text"></i> Certifications &amp; Accreditations
+              <i class="fas fa-certificate accent-cyan-text"></i> Certifications &amp; Achievements
             </h3>
 
             <div class="cert-cards-list">
@@ -627,8 +664,13 @@
                 </div>
                 <div class="cert-content">
                   <h4 class="cert-title">TCS iON National Qualifier Test (NQT)</h4>
-                  <p class="cert-issuer">Tata Consultancy Services • Standardized Technical Assessment</p>
-                  <span class="cert-meta-tag score"><i class="fas fa-check-circle"></i> Score: 2078 / 3000</span>
+                  <p class="cert-issuer">Tata Consultancy Services &bull; 2026</p>
+                  <div class="cert-meta-row">
+                    <span class="cert-meta-tag score"><i class="fas fa-check-circle"></i> Scored 2078 / 3000</span>
+                    <a href="https://learning.tcsionhub.in" target="_blank" rel="noopener noreferrer" class="cert-link-badge">
+                      <i class="fas fa-arrow-up-right-from-square"></i> Credential Link
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -638,33 +680,48 @@
                   <i class="fas fa-cloud"></i>
                 </div>
                 <div class="cert-content">
-                  <h4 class="cert-title">Cloud Computing &amp; Distributed Systems</h4>
-                  <p class="cert-issuer">NPTEL, IIT Kanpur • Verified Completion</p>
-                  <span class="cert-meta-tag"><i class="fas fa-link"></i> Verified Credential</span>
+                  <h4 class="cert-title">Cloud Computing and Distributed Systems</h4>
+                  <p class="cert-issuer">NPTEL, IIT Kanpur &bull; 2026</p>
+                  <div class="cert-meta-row">
+                    <span class="cert-meta-tag"><i class="fas fa-certificate"></i> Verified Completion</span>
+                    <a href="https://nptel.ac.in" target="_blank" rel="noopener noreferrer" class="cert-link-badge">
+                      <i class="fas fa-arrow-up-right-from-square"></i> Credential Link
+                    </a>
+                  </div>
                 </div>
               </div>
 
-              <!-- Flutter Certificate -->
-              <div class="cert-card">
-                <div class="cert-icon-badge flutter">
-                  <i class="fab fa-flutter"></i>
-                </div>
-                <div class="cert-content">
-                  <h4 class="cert-title">Certificate of Completion in Flutter</h4>
-                  <p class="cert-issuer">Avodha Edutech • Mobile App Development</p>
-                  <span class="cert-meta-tag"><i class="fas fa-link"></i> Verified Credential</span>
-                </div>
-              </div>
-
-              <!-- Python Certificate -->
+              <!-- Python IIT Bombay & EduPyramids -->
               <div class="cert-card">
                 <div class="cert-icon-badge" style="background: rgba(139, 92, 246, 0.12); color: #8b5cf6;">
                   <i class="fab fa-python"></i>
                 </div>
                 <div class="cert-content">
-                  <h4 class="cert-title">Certificate of Completion in Python</h4>
-                  <p class="cert-issuer">EduPyramids, SINE, IIT Bombay</p>
-                  <span class="cert-meta-tag"><i class="fas fa-link"></i> Verified Credential</span>
+                  <h4 class="cert-title">Python 3.4.3 Programming Certification</h4>
+                  <p class="cert-issuer">SINE, IIT Bombay &amp; EduPyramids &bull; 2025</p>
+                  <div class="cert-meta-row">
+                    <span class="cert-meta-tag"><i class="fas fa-certificate"></i> Certified Programmer</span>
+                    <a href="https://www.iitb.ac.in" target="_blank" rel="noopener noreferrer" class="cert-link-badge">
+                      <i class="fas fa-arrow-up-right-from-square"></i> Credential Link
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Flutter Avodha -->
+              <div class="cert-card">
+                <div class="cert-icon-badge flutter">
+                  <i class="fab fa-flutter"></i>
+                </div>
+                <div class="cert-content">
+                  <h4 class="cert-title">Cross-Platform Mobile Development</h4>
+                  <p class="cert-issuer">Avodha Edutech &bull; 2023 – 2024</p>
+                  <div class="cert-meta-row">
+                    <span class="cert-meta-tag"><i class="fas fa-certificate"></i> Verified Completion</span>
+                    <a href="https://avodha.com" target="_blank" rel="noopener noreferrer" class="cert-link-badge">
+                      <i class="fas fa-arrow-up-right-from-square"></i> Credential Link
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -682,7 +739,7 @@
           <span class="section-tag"><i class="fas fa-paper-plane"></i> Let's Connect</span>
           <h2 class="section-title">Get In Touch</h2>
           <p class="section-subtitle">
-            Whether you have a junior developer opportunity, project collaboration, or just want to connect, feel free to reach out!
+            Actively seeking Trainee / Junior Developer roles in Flutter &amp; Python. Let's discuss how I can contribute to your engineering team.
           </p>
         </div>
 
@@ -690,7 +747,7 @@
           <!-- Left: Contact Details -->
           <div class="contact-info-panel">
             <p class="contact-intro-text">
-              I am actively seeking entry-level opportunities as a <strong>Junior Flutter Developer</strong> or Mobile Engineering Associate. Based in <strong>Palakkad, Kerala</strong>, and open to on-site, hybrid, or remote positions.
+              I am eager to apply my fundamentals, quick learning agility, and end-to-end development experience to a <strong>Trainee / Junior Developer</strong> position. Based in <strong>Palakkad, Kerala</strong>, and ready for on-site, hybrid, or remote opportunities.
             </p>
 
             <div class="contact-channels">
@@ -711,18 +768,18 @@
                   <i class="fas fa-phone-alt"></i>
                 </div>
                 <div class="contact-channel-details">
-                  <span class="channel-label">Phone &amp; Call</span>
+                  <span class="channel-label">Phone &amp; WhatsApp Call</span>
                   <span class="channel-value">+91 8590968986</span>
                 </div>
               </a>
 
               <!-- WhatsApp -->
-              <a href="https://wa.me/918590968986?text=Hi%20Sreerag,%20I%20saw%20your%20Flutter%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
+              <a href="https://wa.me/918590968986?text=Hi%20Sreerag,%20I%20saw%20your%20software%20developer%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
                 <div class="contact-channel-icon whatsapp">
                   <i class="fab fa-whatsapp"></i>
                 </div>
                 <div class="contact-channel-details">
-                  <span class="channel-label">Direct WhatsApp</span>
+                  <span class="channel-label">Direct WhatsApp Chat</span>
                   <span class="channel-value">Chat on WhatsApp</span>
                 </div>
               </a>
@@ -742,32 +799,32 @@
 
           <!-- Right: Interactive Message Form -->
           <div class="contact-form-card">
-            <h3 class="form-title">Send a Quick Message</h3>
-            <p class="form-sub">Sends directly to sreeragpssankar@gmail.com via your default email client.</p>
+            <h3 class="form-title">Send a Direct Message</h3>
+            <p class="form-sub">Sends directly to sreeragpssankar@gmail.com via your email client.</p>
 
             <form id="contactForm">
               <div class="form-group">
                 <label class="form-label" for="senderName">Your Name *</label>
-                <input type="text" id="senderName" class="form-input" placeholder="e.g. John Doe" required>
+                <input type="text" id="senderName" class="form-input" placeholder="e.g. Hiring Manager / John Doe" required>
               </div>
 
               <div class="form-group">
                 <label class="form-label" for="senderEmail">Your Email *</label>
-                <input type="email" id="senderEmail" class="form-input" placeholder="e.g. john@example.com" required>
+                <input type="email" id="senderEmail" class="form-input" placeholder="e.g. recruiter@company.com" required>
               </div>
 
               <div class="form-group">
                 <label class="form-label" for="msgSubject">Subject</label>
-                <input type="text" id="msgSubject" class="form-input" placeholder="e.g. Flutter Developer Opportunity">
+                <input type="text" id="msgSubject" class="form-input" placeholder="e.g. Junior Developer Role Opportunity">
               </div>
 
               <div class="form-group">
                 <label class="form-label" for="msgBody">Message *</label>
-                <textarea id="msgBody" class="form-textarea" placeholder="Write your message here..." required></textarea>
+                <textarea id="msgBody" class="form-textarea" placeholder="Hello Sreerag, we reviewed your portfolio and would like to invite you for an interview..." required></textarea>
               </div>
 
               <button type="submit" class="btn btn-primary" style="width: 100%;">
-                <i class="fas fa-paper-plane"></i> Dispatch Message
+                <i class="fas fa-paper-plane"></i> Send Message to Sreerag
               </button>
             </form>
           </div>
@@ -777,7 +834,7 @@
   </main>
 
   <!-- ========================================================================
-       PROJECT MODAL OVERLAY
+       PROJECT DETAILS MODAL
        ======================================================================== -->
   <div class="modal-overlay" id="projectModal">
     <div class="modal-container">
@@ -791,11 +848,145 @@
   </div>
 
   <!-- ========================================================================
+       DIGITAL RESUME VIEWER MODAL
+       ======================================================================== -->
+  <div class="modal-overlay" id="resumeModal">
+    <div class="modal-container resume-modal-dialog">
+      <button class="modal-close-btn" id="resumeCloseBtn" aria-label="Close resume modal">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <div class="resume-sheet">
+        <!-- Resume Header -->
+        <div class="resume-header-block">
+          <div class="resume-title-wrap">
+            <h1 class="resume-name">SREERAG SANKAR PS</h1>
+            <div class="resume-role-subtitle">Software Developer (Fresher) | Flutter &amp; Python</div>
+            <div class="resume-contact-inline">
+              <span><i class="fas fa-location-dot"></i> Palakkad, Kerala, India</span> &bull;
+              <span><i class="fas fa-phone"></i> +91 8590968986</span> &bull;
+              <span><i class="fas fa-envelope"></i> sreeragpssankar@gmail.com</span>
+            </div>
+            <div class="resume-links-inline">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a> &bull;
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a> &bull;
+              <a href="#home" onclick="closeResumeModal()"><i class="fas fa-globe"></i> Portfolio</a>
+            </div>
+          </div>
+          <div class="resume-actions-bar">
+            <button class="btn btn-primary btn-sm" onclick="window.print()">
+              <i class="fas fa-print"></i> Print / Save PDF
+            </button>
+            <a href="mailto:sreeragpssankar@gmail.com?subject=Job%20Inquiry%20-%20Sreerag%20Sankar%20PS" class="btn btn-secondary btn-sm">
+              <i class="fas fa-envelope"></i> Email Me
+            </a>
+          </div>
+        </div>
+
+        <hr class="resume-hr">
+
+        <!-- Summary -->
+        <div class="resume-section">
+          <h3 class="resume-sec-title">SUMMARY</h3>
+          <p class="resume-sec-content">
+            Software developer with hands-on experience building cross-platform mobile and web applications in Flutter, Python, and JavaScript. Skilled in integrating REST APIs and delivering features end-to-end on independent projects. Recently completed an MCA (2026), having transitioned from a Bachelor's in Economics into software development. Seeking a Trainee/Junior Developer role to apply strong fundamentals and a quick learning ability to real-world engineering problems.
+          </p>
+        </div>
+
+        <!-- Education -->
+        <div class="resume-section">
+          <h3 class="resume-sec-title">EDUCATION</h3>
+          <div class="resume-item">
+            <div class="resume-item-top">
+              <strong>Nehru College of Engineering and Research Centre &mdash; Thrissur, Kerala</strong>
+              <span>Aug 2024 &ndash; Jul 2026</span>
+            </div>
+            <div class="resume-item-sub">
+              <em>Master of Computer Applications (MCA)</em> | <strong>CGPA: 8.52 / 10</strong>
+            </div>
+            <div class="resume-item-details">
+              <strong>Relevant Coursework:</strong> Data Structures &amp; Algorithms, Database Management Systems (DBMS), Operating Systems, Computer Networks, Cloud Computing, Software Engineering.
+            </div>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-item-top">
+              <strong>Najath Arts and Science College &mdash; Mannarkkad, Kerala</strong>
+              <span>Jun 2020 &ndash; May 2023</span>
+            </div>
+            <div class="resume-item-sub">
+              <em>Bachelor of Arts (BA) in Economics</em>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="resume-section">
+          <h3 class="resume-sec-title">TECHNICAL SKILLS</h3>
+          <ul class="resume-skills-list">
+            <li><strong>Languages:</strong> Python, Dart, JavaScript, HTML</li>
+            <li><strong>Frameworks &amp; Libraries:</strong> Flutter, Tailwind CSS</li>
+            <li><strong>Databases &amp; Cloud:</strong> MySQL, Firebase, Cloud Computing Fundamentals</li>
+            <li><strong>Core Concepts:</strong> RESTful APIs, Agile Methodologies, Object-Oriented Programming (OOP), SDLC</li>
+            <li><strong>Developer Tools:</strong> Git, GitHub, VS Code, Postman</li>
+          </ul>
+        </div>
+
+        <!-- Technical Projects -->
+        <div class="resume-section">
+          <h3 class="resume-sec-title">TECHNICAL PROJECTS</h3>
+
+          <div class="resume-item">
+            <div class="resume-item-top">
+              <strong>Leaf Lens &mdash; AI Plant Disease Detection Mobile App</strong>
+              <span>Jan 2026 &ndash; Mar 2026</span>
+            </div>
+            <div class="resume-item-sub">
+              <em>Lead Developer</em> | Flutter, Dart, REST APIs, Git
+            </div>
+            <ul class="resume-bullets">
+              <li>Engineered a cross-platform Flutter application that lets users diagnose plant health issues by capturing or uploading a leaf photo via the device camera and gallery.</li>
+              <li>Integrated a cloud-based AI vision API to analyze uploaded images and return disease classification results in real time.</li>
+              <li>Built asynchronous HTTP request handling to securely transmit image payloads and parse JSON responses, and implemented runtime camera/storage permission handling with local, on-device storage of API credentials.</li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-item-top">
+              <strong>Rural Connect Web Platform</strong>
+              <span>Jun 2025 &ndash; Sep 2025</span>
+            </div>
+            <div class="resume-item-sub">
+              <em>UI Developer | 5-member team</em> | HTML, JavaScript, Tailwind CSS, Git
+            </div>
+            <ul class="resume-bullets">
+              <li>Built the frontend UI for a community web portal enabling residents to file complaints digitally and track cross-departmental resolution progress, as part of a 5-member team.</li>
+              <li>Designed and implemented responsive Tailwind CSS layouts, reducing cross-browser rendering inconsistencies and improving usability across devices.</li>
+              <li>Focused on the platform's visual design and UI implementation, while teammates handled backend logic and database integration.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Certifications & Achievements -->
+        <div class="resume-section">
+          <h3 class="resume-sec-title">CERTIFICATIONS &amp; ACHIEVEMENTS</h3>
+          <ul class="resume-bullets">
+            <li><strong>TCS iON National Qualifier Test (NQT)</strong> &mdash; Scored 2078/3000 (2026)</li>
+            <li><strong>Cloud Computing and Distributed Systems</strong> &mdash; NPTEL, IIT Kanpur (2026)</li>
+            <li><strong>Python 3.4.3 Programming Certification</strong> &mdash; SINE, IIT Bombay &amp; EduPyramids (2025)</li>
+            <li><strong>Cross-Platform Mobile Development</strong> &mdash; Avodha Edutech (2023&ndash;2024)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
        TOAST NOTIFICATION
        ======================================================================== -->
   <div class="toast-notice" id="toastNotice">
     <i class="fas fa-check-circle" style="color: #10b981; font-size: 1.1rem;"></i>
-    <span>Message initialized!</span>
+    <span>Action completed successfully!</span>
   </div>
 
   <!-- ========================================================================
@@ -804,9 +995,12 @@
   <footer class="footer">
     <div class="container footer-content">
       <div class="footer-credits">
-        Designed &amp; Developed by <span>Sreerag Sankar PS</span> • Built with Flutter Spirit &amp; Modern Web
+        Designed &amp; Developed for <span>Sreerag Sankar PS</span> &bull; Software Developer (Fresher) &bull; Flutter &amp; Python
       </div>
       <div class="footer-socials">
+        <button onclick="openResumeModal()" class="back-to-top" style="cursor: pointer;">
+          <i class="fas fa-file-lines"></i> View CV
+        </button>
         <a href="#home" class="back-to-top">
           <i class="fas fa-arrow-up"></i> Top
         </a>
